@@ -10,28 +10,44 @@ const SearchIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" wi
 const PlusCircleIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>;
 const MinusCircleIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line></svg>;
 const ChevronLeftIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="15 18 9 12 15 6"></polyline></svg>;
-const SpecialDrinkIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>;
-const CoffeeIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M10 2v2" /><path d="M14 2v2" /><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" /><path d="M6 2v2" /></svg>;
-const TeaIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z" /><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0" /></svg>;
-const SmoothieIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8" /><path d="M5 8h14" /><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0" /><path d="m12 8 1-6h2" /></svg>;
+const EsanIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" className={className}><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" ><path d="M12.014 21.514v-3.75M5.93 9.504l-.43 1.604a4.986 4.986 0 0 0 3.524 6.105q1.495.402 2.99.801v-3.44a4.98 4.98 0 0 0-3.676-4.426z" /><path d="M13.744 11.164a4.9 4.9 0 0 0 1.433-3.46a4.88 4.88 0 0 0-1.433-3.46l-1.73-1.73l-1.73 1.73a4.9 4.9 0 0 0-1.433 3.46a4.9 4.9 0 0 0 1.433 3.46" /><path d="m18.099 9.504l.43 1.604a4.986 4.986 0 0 1-3.525 6.105l-2.99.801v-3.44a4.98 4.98 0 0 1 3.677-4.426z" /></g></svg>;
+const NorthIcon = ({ className }) => <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#000000"
+    className={className} // ✅ ใส่ตรงนี้
+>
+    <g
+        fill="none"
+        stroke="#000000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+    >
+        <path d="M14.5 12H14c-2.8 0-5-2.2-5-5V5a2 2 0 0 1 2-2h2c1.5 0 2.8.8 3.4 2H19c1.7 0 3 1.3 3 3v10m-4-8h.01" />
+        <path d="M14 10a4 4 0 0 0 4 4a4 4 0 0 1 4 4a2 2 0 0 1-4 0m-8-2v5" />
+        <path d="M18 14a4 4 0 0 0-4 4v3H6v-2.6c0-1.1-.8-2.3-1.7-3C2.9 14.3 2 12.8 2 11c0-3.3 3.1-6 7-6m-7 6v7" />
+    </g>
+</svg>;
+const CentralIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000000" className={className}><g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M14 8h-4c-2.482 0-3 .518-3 3v11h10V11c0-2.482-.518-3-3-3m-3 4h2m-2 3h2m-2 3h2" /><path d="M21 22V8.186c0-1.229 0-1.843-.299-2.336c-.298-.494-.836-.769-1.912-1.318l-4.342-2.217C13.287 1.723 13 1.932 13 3.23v4.474M3 22v-9c0-.827.173-1 1-1h3m15 10H2" /></g></svg>;
+const SouthIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 14 14" fill="#000000" className={className}><g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 13.48H13a2 2 0 0 1-2-2a2 2 0 0 1-4 0a2 2 0 0 1-4 0a2 2 0 0 1-2 2H.5m9.5-4a5.49 5.49 0 0 0-8.48 0" /><path d="M6.5 7.53c.06-2.26.75-4.32 2.25-5.06M5.76.57a2.58 2.58 0 0 1 3 1.9" /><path d="M12.41 2.84a2.78 2.78 0 0 0-3.66-.37" /><path d="M5.08 3.54a3 3 0 0 1 3.67-1.07a2.55 2.55 0 0 1 1.89 3" /></g></svg>;
+const ProductIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" className={className}><path fill="#000000" d="M22 3H2v6h1v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9h1V3zM4 5h16v2H4V5zm15 15H5V9h14v11zM9 11h6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z" /></svg>;
 
 const GoDrinkLogo = () => (
     <div className="flex items-center space-x-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cup-soda-icon lucide-cup-soda">
-        <path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"/>
-        <path d="M5 8h14"/>
-        <path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"/>
-        <path d="m12 8 1-6h2"/>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" fill="#ffffffff"><path fill="none" stroke="#ffffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m24.564 42.483l-5.56-20.87l-8.642 2.264l-3.143-10.408L37.639 5.5l3.142 10.407l-8.972 2.363l5.556 20.883c-3.714 2.626-8.074 3.484-12.801 3.33" /></svg>
+
         <span className="text-2xl font-bold tracking-wider">GoTop</span>
     </div>
 );
 
 const categories = [
-    { name: 'Coffee', thaiName: 'Coffee', icon: CoffeeIcon, color: 'bg-pink-100' },
-    { name: 'Tea', thaiName: 'Tea', icon: TeaIcon, color: 'bg-sky-100' },
-    { name: 'Smoothies', thaiName: 'Smoothies', icon: SmoothieIcon, color: 'bg-green-100' },
-    { name: 'Special', thaiName: 'Special', icon: SpecialDrinkIcon, color: 'bg-yellow-100' },
+    { name: 'North', thaiName: 'ภาคเหนือ', icon: NorthIcon, color: 'bg-pink-100' },
+    { name: 'Central', thaiName: 'ภาคกลาง', icon: CentralIcon, color: 'bg-sky-100' },
+    { name: 'South', thaiName: 'ภาคใต้', icon: SouthIcon, color: 'bg-green-100' },
+    { name: 'Northeast', thaiName: 'ภาคอีสาน', icon: EsanIcon, color: 'bg-yellow-100' },
 ];
 
 // --- Components ---
@@ -53,7 +69,7 @@ const Toast = ({ message }) => {
 
 //const Header = () => (<header className="sticky top-0 z-20 bg-gradient-to-r from-blue-500 to-cyan-400 text-white p-4 flex justify-between items-center shadow-lg"><GoDrinkLogo /><div className="flex items-center space-x-4"><SearchIcon className="h-6 w-6 cursor-pointer hover:opacity-80 transition-opacity" /><UserIcon className="h-6 w-6 cursor-pointer hover:opacity-80 transition-opacity" /></div></header>);
 const Header = ({ onLogoClick }) => (
-    <header className="sticky top-0 z-20 bg-gradient-to-r from-blue-500 to-cyan-400 text-white p-4 flex justify-between items-center shadow-lg">
+    <header className="sticky top-0 z-20 bg-gradient-to-r from-green-500 to-orange-400 text-white p-4 flex justify-between items-center shadow-lg">
         <button onClick={onLogoClick} className="cursor-pointer transition-transform duration-200 hover:scale-105">
             <GoDrinkLogo />
         </button>
@@ -63,14 +79,14 @@ const Header = ({ onLogoClick }) => (
         </div>
     </header>
 );
-const WelcomeBanner = () => (<div className="p-6 sm:p-8 bg-gradient-to-r from-blue-500 to-cyan-400 text-white rounded-xl mb-8 shadow-lg"><h2 className="text-3xl font-bold mb-2">Welcome!</h2><p className="text-lg opacity-90">สั่งสินค้า OTOP ง่ายๆได้ที่นี่เลย !</p></div>);
-const CategoryNav = ({ onSelectCategory }) => (<div className="mb-8"><h3 className="text-2xl font-bold text-gray-800 mb-4">หมวดหมู่</h3><div className="grid grid-cols-2 sm:grid-cols-4 gap-4">{categories.map((cat) => (<div key={cat.name} onClick={() => onSelectCategory(cat.name)} className={`${cat.color} p-4 rounded-xl text-center shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer`}><cat.icon className="h-8 w-8 mx-auto mb-2 text-purple-600" /><span className="font-semibold text-gray-700">{cat.thaiName}</span></div>))}</div></div>);
+const WelcomeBanner = () => (<div className="p-6 sm:p-8 bg-gradient-to-r from-green-500 to-orange-400 text-white rounded-xl mb-8 shadow-lg"><h2 className="text-3xl font-bold mb-2">Welcome!</h2><p className="text-lg opacity-90">สั่งสินค้า OTOP ง่ายๆได้ที่นี่เลย !</p></div>);
+const CategoryNav = ({ onSelectCategory }) => (<div className="mb-8"><h3 className="text-2xl font-bold text-gray-800 mb-4">Select Region</h3><div className="grid grid-cols-2 sm:grid-cols-4 gap-4">{categories.map((cat) => (<div key={cat.name} onClick={() => onSelectCategory(cat.name)} className={`${cat.color} p-4 rounded-xl text-center shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer`}><cat.icon className="h-8 w-8 mx-auto mb-2 text-purple-600" /><span className="font-semibold text-gray-700">{cat.thaiName}</span></div>))}</div></div>);
 const ProductCard = ({ product, onAddToCart }) => (<div className="bg-white rounded-xl shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 ease-in-out group flex flex-col"><img src={product.image} alt={product.name} className="w-full h-48 object-cover" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/400x300/e2e8f0/64748b?text=Image+Not+Found'; }} /><div className="p-4 flex flex-col flex-grow"><h4 className="text-lg font-bold text-gray-800">{product.name}</h4><p className="text-sm text-gray-500 mb-3">{product.thaiName}</p><p className="text-gray-600 text-sm flex-grow">{product.description}</p><div className="mt-4 flex justify-between items-center"><span className="text-xl font-extrabold text-purple-600">฿{product.price}</span><button onClick={() => onAddToCart(product)} className="bg-purple-500 text-white rounded-full p-2 group-hover:bg-purple-600 group-hover:scale-110 transition-all duration-200"><PlusCircleIcon className="w-6 h-6" /></button></div></div></div>);
 //const BottomNav = ({ activeView, setActiveView }) => { const navItems = [{ name: 'Home', thaiName: 'หน้าหลัก', icon: HomeIcon, view: 'home' }, { name: 'Menu', thaiName: 'เมนู', icon: CoffeeIcon, view: 'menu' }, { name: 'Cart', thaiName: 'ตะกร้า', icon: ShoppingCartIcon, view: 'cart' }, { name: 'Profile', thaiName: 'โปรไฟล์', icon: UserIcon, view: 'profile' },]; return (<nav className="fixed bottom-0 left-0 w-full bg-white/80 backdrop-blur-sm shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:hidden z-20"><div className="flex justify-around items-center h-16">{navItems.map(item => (<button key={item.name} onClick={() => setActiveView(item.view)} className={`flex flex-col items-center justify-center space-y-1 transition-colors ${activeView === item.view ? 'text-purple-600' : 'text-gray-500'}`}><item.icon className="w-6 h-6" /><span className="text-xs font-medium">{item.thaiName}</span></button>))}</div></nav>); };
 const BottomNav = ({ activeView, setActiveView, onHomeClick }) => {
     const navItems = [
         { name: 'Home', thaiName: 'หน้าหลัก', icon: HomeIcon, view: 'home' },
-        { name: 'Menu', thaiName: 'เมนู', icon: CoffeeIcon, view: 'menu' },
+        { name: 'Product', thaiName: 'สินค้า', icon: ProductIcon, view: 'menu' },
         { name: 'Cart', thaiName: 'ตะกร้า', icon: ShoppingCartIcon, view: 'cart' },
         { name: 'Profile', thaiName: 'โปรไฟล์', icon: UserIcon, view: 'profile' },
     ];
@@ -86,7 +102,7 @@ const BottomNav = ({ activeView, setActiveView, onHomeClick }) => {
                             setActiveView(item.view);
                         }
                     };
-                    
+
                     return (
                         <button key={item.name} onClick={clickHandler} className={`flex flex-col items-center justify-center space-y-1 transition-colors ${activeView === item.view ? 'text-blue-600' : 'text-gray-500'}`}>
                             <item.icon className="w-6 h-6" />
@@ -111,11 +127,11 @@ const CartView = ({ cart, onUpdateCart, onBack }) => {
     return (<div className="p-4 bg-gray-50 min-h-screen">
         <div className="flex items-center mb-6"><button onClick={onBack} className="p-2 mr-2 rounded-full hover:bg-gray-200">
             <ChevronLeftIcon className="w-6 h-6 text-gray-700" /></button>
-            <h2 className="text-3xl font-bold text-gray-800">ตะกร้าของคุณ</h2></div>{cart.length === 0 ? 
-            (<div className="text-center py-20"><ShoppingCartIcon className="w-16 h-16 mx-auto text-gray-300 mb-4" /><p className="text-gray-500 text-lg">ตะกร้าของคุณว่างเปล่า</p><button onClick={onBack} className="mt-6 bg-purple-500 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-purple-600 transition-colors">เลือกซื้อสินค้าต่อ</button></div>) : (<div className="space-y-4">{cart.map(item => (<div key={item.id} className="bg-white p-4 rounded-xl shadow-sm flex items-center"><img src={item.image} alt={item.name} className="w-20 h-20 rounded-lg object-cover mr-4" /><div className="flex-grow"><h3 className="font-bold text-gray-800">{item.name}</h3><p className="text-purple-600 font-semibold">฿{item.price}</p></div><div className="flex items-center space-x-3"><button onClick={() => handleQuantityChange(item, -1)} className="text-purple-500 rounded-full hover:bg-purple-100 p-1"><MinusCircleIcon className="w-6 h-6" /></button><span className="font-bold text-lg w-8 text-center">{item.quantity}</span><button onClick={() => handleQuantityChange(item, 1)} className="text-purple-500 rounded-full hover:bg-purple-100 p-1"><PlusCircleIcon className="w-6 h-6" /></button></div></div>))}{<div className="mt-8 pt-6 border-t-2 border-gray-200 border-dashed"><h3 className="text-xl font-bold mb-4">สรุปรายการสั่งซื้อ</h3><div className="space-y-2 text-gray-700"><div className="flex justify-between"><span>ราคาสินค้า</span><span>฿{total.toFixed(2)}</span></div><div className="flex justify-between">
-        {/* <span>ค่าจัดส่ง</span><span>ฟรี</span> */}
-        </div><div className="flex justify-between font-bold text-xl text-gray-800 pt-2 border-t mt-2">
-        <span>ยอดรวมทั้งหมด</span><span>฿{total.toFixed(2)}</span></div></div><button className="w-full mt-6 bg-purple-600 text-white font-bold py-3 rounded-xl shadow-lg hover:bg-purple-700 transition-colors text-lg">ชำระเงิน</button></div>}</div>)}</div>);
+            <h2 className="text-3xl font-bold text-gray-800">ตะกร้าของคุณ</h2></div>{cart.length === 0 ?
+                (<div className="text-center py-20"><ShoppingCartIcon className="w-16 h-16 mx-auto text-gray-300 mb-4" /><p className="text-gray-500 text-lg">ตะกร้าของคุณว่างเปล่า</p><button onClick={onBack} className="mt-6 bg-purple-500 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-purple-600 transition-colors">เลือกซื้อสินค้าต่อ</button></div>) : (<div className="space-y-4">{cart.map(item => (<div key={item.id} className="bg-white p-4 rounded-xl shadow-sm flex items-center"><img src={item.image} alt={item.name} className="w-20 h-20 rounded-lg object-cover mr-4" /><div className="flex-grow"><h3 className="font-bold text-gray-800">{item.name}</h3><p className="text-purple-600 font-semibold">฿{item.price}</p></div><div className="flex items-center space-x-3"><button onClick={() => handleQuantityChange(item, -1)} className="text-purple-500 rounded-full hover:bg-purple-100 p-1"><MinusCircleIcon className="w-6 h-6" /></button><span className="font-bold text-lg w-8 text-center">{item.quantity}</span><button onClick={() => handleQuantityChange(item, 1)} className="text-purple-500 rounded-full hover:bg-purple-100 p-1"><PlusCircleIcon className="w-6 h-6" /></button></div></div>))}{<div className="mt-8 pt-6 border-t-2 border-gray-200 border-dashed"><h3 className="text-xl font-bold mb-4">สรุปรายการสั่งซื้อ</h3><div className="space-y-2 text-gray-700"><div className="flex justify-between"><span>ราคาสินค้า</span><span>฿{total.toFixed(2)}</span></div><div className="flex justify-between">
+                    {/* <span>ค่าจัดส่ง</span><span>ฟรี</span> */}
+                </div><div className="flex justify-between font-bold text-xl text-gray-800 pt-2 border-t mt-2">
+                        <span>ยอดรวมทั้งหมด</span><span>฿{total.toFixed(2)}</span></div></div><button className="w-full mt-6 bg-purple-600 text-white font-bold py-3 rounded-xl shadow-lg hover:bg-purple-700 transition-colors text-lg">ชำระเงิน</button></div>}</div>)}</div>);
 };
 
 // --- Main App Component ---
@@ -151,7 +167,7 @@ export default function ClientPage({ initialProducts }) {
         // Hide toast after 3 seconds
         setTimeout(() => {
             setToastMessage('');
-        }, 5000);
+        }, 3000);
     };
     // ===== [END] UPDATED FUNCTION =====
 
@@ -167,16 +183,30 @@ export default function ClientPage({ initialProducts }) {
     //         default: return (<div className="p-4 sm:p-6"><WelcomeBanner /><CategoryNav onSelectCategory={handleSelectCategory} /><div><div className="flex justify-between items-center mb-4"><h3 className="text-2xl font-bold text-gray-800">{selectedCategory ? `${selectedCategory} Drinks` : 'เมนูแนะนำ'}</h3>{selectedCategory && (<button onClick={() => setSelectedCategory(null)} className="text-sm font-semibold text-purple-600 hover:underline">แสดงทั้งหมด</button>)}</div><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">{filteredProducts.map(product => (<ProductCard key={product.id} product={product} onAddToCart={handleAddToCart} />))}</div></div></div>);
     //     }
     // };
+    const getRecommendedProducts = () => {
+        if (!products) return [];
 
+        const regions = ['North', 'Central', 'South', 'Northeast'];
+        const recommended = [];
+
+        regions.forEach(region => {
+            const itemsInRegion = products.filter(p => p.category === region);
+            if (itemsInRegion.length > 0) {
+                recommended.push(itemsInRegion[0]); // เอาเฉพาะตัวแรกจากแต่ละภาค
+            }
+        });
+
+        return recommended;
+    };
     const renderView = () => {
         switch (activeView) {
-            case 'cart': 
+            case 'cart':
                 return <CartView cart={cart} onUpdateCart={handleUpdateCart} onBack={handleGoHome} />;
-            
+
             case 'menu':
             case 'home':
             default:
-                const productsToShow = selectedCategory ? filteredProducts : (products ? products.slice(0, 3) : []);
+                const productsToShow = selectedCategory ? filteredProducts : getRecommendedProducts();
 
                 return (
                     <div className="p-4 sm:p-6">
@@ -184,10 +214,10 @@ export default function ClientPage({ initialProducts }) {
                         <CategoryNav onSelectCategory={handleSelectCategory} />
                         <div>
                             <div className="flex justify-between items-center mb-4">
-                               <h3 className="text-2xl font-bold text-gray-800">{selectedCategory ? `${selectedCategory} Drinks` : 'เมนูแนะนำ'}</h3>
-                               {selectedCategory && (
-                                   <button onClick={() => setSelectedCategory(null)} className="text-sm font-semibold text-blue-600 hover:underline">แสดงทั้งหมด</button>
-                               )}
+                                <h3 className="text-2xl font-bold text-gray-800">{selectedCategory ? `${selectedCategory} Products` : 'สินค้าแนะนำ'}</h3>
+                                {selectedCategory && (
+                                    <button onClick={() => setSelectedCategory(null)} className="text-sm font-semibold text-blue-600 hover:underline">แสดงทั้งหมด</button>
+                                )}
                             </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                 {productsToShow.map(product => (
@@ -207,9 +237,9 @@ export default function ClientPage({ initialProducts }) {
             <main>
                 {renderView()}
             </main>
-            <BottomNav 
-                activeView={activeView} 
-                setActiveView={setActiveView} 
+            <BottomNav
+                activeView={activeView}
+                setActiveView={setActiveView}
                 onHomeClick={handleGoHome}
             />
             {/* ===== [START] ADDED TOAST COMPONENT TO LAYOUT ===== */}
