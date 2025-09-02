@@ -37,16 +37,16 @@ const ProductIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" w
 
 const GoDrinkLogo = () => (
     <div className="flex items-center space-x-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" fill="#ffffffff"><path fill="none" stroke="#ffffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m24.564 42.483l-5.56-20.87l-8.642 2.264l-3.143-10.408L37.639 5.5l3.142 10.407l-8.972 2.363l5.556 20.883c-3.714 2.626-8.074 3.484-12.801 3.33" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" fill="#ffffffff"><path fill="none" stroke="#ffffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="m24.564 42.483l-5.56-20.87l-8.642 2.264l-3.143-10.408L37.639 5.5l3.142 10.407l-8.972 2.363l5.556 20.883c-3.714 2.626-8.074 3.484-12.801 3.33" /></svg>
 
         <span className="text-2xl font-bold tracking-wider">GoTop</span>
     </div>
 );
 
 const categories = [
-    { name: 'North', thaiName: 'ภาคเหนือ', icon: NorthIcon, color: 'bg-pink-100' },
-    { name: 'Central', thaiName: 'ภาคกลาง', icon: CentralIcon, color: 'bg-sky-100' },
-    { name: 'South', thaiName: 'ภาคใต้', icon: SouthIcon, color: 'bg-green-100' },
+    { name: 'North', thaiName: 'ภาคเหนือ', icon: NorthIcon, color: 'bg-green-100' },
+    { name: 'Central', thaiName: 'ภาคกลาง', icon: CentralIcon, color: 'bg-pink-100' },
+    { name: 'South', thaiName: 'ภาคใต้', icon: SouthIcon, color: 'bg-sky-100' },
     { name: 'Northeast', thaiName: 'ภาคอีสาน', icon: EsanIcon, color: 'bg-yellow-100' },
 ];
 
